@@ -1,0 +1,25 @@
+{
+  "name": "mongoosews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "express",
+    "mongoose"
+  ],
+  "author": "wathek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
